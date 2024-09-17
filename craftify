@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craftify.cc - Unique Handcrafted Goods</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .hero-section {
+            background-image: url('https://i.imgur.com/LTYedyQ.jpg');
+            background-size: cover;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+        }
+
+        .hero-section a {
+            background-color: #fff;
+            padding: 1rem 2rem;
+            color: #333;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .featured-categories {
+            display: flex;
+            justify-content: space-around;
+            padding: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .featured-categories article {
+            text-align: center;
+            width: 30%;
+            margin-bottom: 1rem;
+        }
+
+        .featured-categories img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .why-choose, .testimonials, .call-to-action, .founders, .blog, .newsletter {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .why-choose ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .why-choose li {
+            margin-bottom: 0.5rem;
+        }
+
+        .testimonials blockquote {
+            font-style: italic;
+            border-left: 4px solid #333;
+            padding-left: 1rem;
+            margin: 1rem auto;
+            max-width: 600px;
+        }
+
+        .call-to-action a {
+            background-color: #333;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .newsletter form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .newsletter input[type="email"] {
+            padding: 0.5rem;
+            margin-bottom: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .newsletter button {
+            background-color: #333;
+            color: white;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .newsletter button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .featured-categories article {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Craftify.cc</h1>
+        <p>Discover Unique Handcrafted Goods & Support Local Artisans</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Sell with Us</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+        <a href="#">Blog</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div>
+            <h1>Shop Handcrafted Items from Talented Artisans</h1>
+            <a href="#">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Featured Categories -->
+    <section class="featured-categories">
+        <h2>Featured Categories</h2>
+        <article>
+            <img src="https://i.imgur.com/ZkDTeQ2.jpg" alt="Handcrafted Jewelry">
+            <p>Jewelry</p>
+        </article>
+        <article>
+            <img src="https://i.imgur.com/2mVUvc0.jpg" alt="Handcrafted Clothing">
+            <p>Clothing</p>
+        </article>
+        <article>
+            <img src="https://i.imgur.com/u7KQ1wY.jpg" alt="Handcrafted Home Decor">
+            <p>Home Decor</p>
+        </article>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose">
+        <h2>Why Choose Craftify.cc?</h2>
+        <ul>
+            <li>Unique handcrafted goods</li>
+            <li>Support independent artisans</li>
+            <li>Eco-friendly products</li>
+            <li>Customizable gifts</li>
+        </ul>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <blockquote>
+            "Craftify.cc has the most beautiful, unique products. I love that I'm supporting small businesses!"
+        </blockquote>
+        <blockquote>
+            "The quality of the items I purchased is exceptional. Highly recommended!"
+        </blockquote>
+    </section>
+
+    <!-- Call to Action for Sellers -->
+    <section class="call-to-action">
+        <h2>Are You an Artisan? Sell Your Craft with Us!</h2>
+        <p>Join our growing community of creators. Get your handcrafted items seen by a wider audience.</p>
+        <a href="#">Join Us</a>
+    </section>
+
+    <!-- Founders Section -->
+    <section class="founders">
+        <h2>Meet Our Founders</h2>
+        <p><strong>Chhanda Prabal Das</strong> and <strong>Ananya Prabal Das</strong> are the visionaries behind Craftify.cc. They believe in empowering artisans by giving them a platform to showcase their incredible talents.</p>
+    </section>
+
+    <!-- Blog Section (Optional) -->
+    <section class="blog">
+        <h2>From the Blog</h2>
+        <p>Check out the latest news, tips, and stories about artisans, sustainability, and creativity.</p>
+        <a href="#">Read More</a>
+    </section>
+
+    <!-- Newsletter Signup Section -->
+    <section class="newsletter">
+        <h2>Join Our Newsletter</h2>
+        <p>Subscribe for exclusive offers, product updates, and artisan highlights.</p>
+        <form action="#" method="post">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Craftify.cc | All Rights Reserved</p>
+        <div>
+            <a href="#">Privacy Policy</a> | 
+            <a href="#">Terms of Service</a> | 
+            <a href="#">Contact Us</a>
+        </div>
+        <div>
+            <a href="#">Instagram</a> | 
+            <a href="#">Facebook</a> | 
+            <a href="#">Pinterest</a>
+        </div>
+    </footer>
+
+</body>
+</html>
